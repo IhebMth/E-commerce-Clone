@@ -31,6 +31,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build "
   },
+  "build": {
+    "assets": {
+      "index.html": "src/index.html"
+    }
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
